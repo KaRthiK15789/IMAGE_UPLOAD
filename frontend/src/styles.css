@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+.tabs button {
+  padding: 10px 20px;
+  margin-right: 10px;
+  cursor: pointer;
+  border: none;
+  background: #f0f0f0;
+}
+
+.tabs button.active {
+  background: #007bff;
+  color: white;
+}
+
+.translator, .processor {
+  margin-top: 20px;
+}
+
+.error {
+  color: red;
+}
+
+.result {
+  margin-top: 20px;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+pre {
+  white-space: pre-wrap;
+  background: #f8f8f8;
+  padding: 10px;
+  border-radius: 4px;
+}
